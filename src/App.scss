@@ -3,6 +3,12 @@
   font-family: var(--font-base);
 }
 
+@media (prefers-color-scheme: dark) {
+  .app {
+    background-color: var(--surface-1);
+  }
+}
+
 .app__whitebg {
   background-color: var(--white-color);
 }
