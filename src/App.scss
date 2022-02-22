@@ -9,10 +9,16 @@
 
 .app__whitebg {
   background-color: var(--white-color);
+  @media (prefers-color-scheme: dark) {
+    background-color: var(--surface-2);
+  }
 }
 
 .app__primarybg {
   background-color: var(--primary-color);
+  @media (prefers-color-scheme: dark) {
+    background-color: var(--surface-3);
+  }
 }
 
 .app__container {
